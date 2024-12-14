@@ -10,7 +10,7 @@ class SignInToLumaPage {
     }
 
     clickSignInButton() {
-        cy.get('button[name="send"').click();
+        cy.get('span').contains('Sign In').click();
         return this;
     }
 
